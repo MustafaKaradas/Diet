@@ -1,0 +1,19 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DietProgram.Models.DTOs.FoodDTO
+{
+    public class FoodBaseDTO
+    {
+        public int CategoryId { get; set; }
+        public string FoodName { get; set; }
+        public double Kcal { get; set; }
+        public double Protein { get; set; }
+        public double Carbonhydrate { get; set; }
+        public double Fat { get; set; }
+        public byte[]? Picture { get; set; }
+    }
+}
